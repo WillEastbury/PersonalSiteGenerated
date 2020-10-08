@@ -1,3 +1,4 @@
 # Vanilla JavaScript App
 
-This repo is used as a starter for a _very basic_ HTML web application using no front-end frameworks.
+- Static Page (PersonalSiteGenerated) is using Jekyll
+- And we have a Functions API integrated into the app as a backend
