@@ -1,0 +1,10 @@
+  <main>
+    <h1>Wills Vanilla JavaScript App</h1>
+    <b id="name">Querying API</b>
+  </main>
+  <script>
+    (async function() {
+      let { text } = await( await fetch(`/api/message`)).json();
+      document.querySelector('#name').textContent = text;
+    }())
+  </script>
